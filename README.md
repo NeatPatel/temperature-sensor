@@ -1,4 +1,4 @@
-Welcome, Arduino enthusiasts and all! Today, we're diving into the world of temperature sensing with a fun project that not only measures water temperature but also provides a visual indicator using LEDs. By the end of this guide, you'll have an NTC thermistor based water temperature thermometer that lights up red for hot, blue for cold, and green for medium temperatures. Let's get started!
+<img width="478" alt="image" src="https://github.com/NeatPatel/temperature-sensor/assets/147283432/6f063585-ead2-4ba6-8b86-baa05c465cfb">Welcome, Arduino enthusiasts and all! Today, we're diving into the world of temperature sensing with a fun project that not only measures water temperature but also provides a visual indicator using LEDs. By the end of this guide, you'll have an NTC thermistor based water temperature thermometer that lights up red for hot, blue for cold, and green for medium temperatures. Let's get started!
 
 ## What You'll Need:
 
@@ -6,7 +6,8 @@ Welcome, Arduino enthusiasts and all! Today, we're diving into the world of temp
 - Arduino microcontroller board (such as Arduino Uno)
 - Three LEDs (Red, Blue, Green)
 - Resistors (220 ohms for each LED)
-- Jumper wires
+- Jumper wires (make sure to have two longer ones!)
+- Soldering Iron and solder
 - Breadboard
 - Heat shrink (and a heat source, like a hair-dryer!)
 
@@ -74,9 +75,15 @@ For more accurate readings, you may need to calibrate the sensor by adjusting th
 
 > This graph uses variating voltage readings to see the temperature differences, and can use its line of prediction to adjust its readings
 
-## Step 4: Enclosure (Optional)
+## Step 4: Encasing using heat shrink
 
-To protect your circuit from water and make it more aesthetically pleasing, consider enclosing it in a water-resistant casing. You can use a waterproof project box or even create a custom 3D-printed enclosure.
+To protect your NTC thermistor wire from water, we will be encasing the wire in a water-resistant insulation known as heat shrink. 
+- Take the two long jumper wires, and use electrical tape and solder to combine them with the ends of the NTC thermistor. 
+- Take two pieces of heat shrink and put them over the NTC thermistor wires, covering them completely from water.
+- Use the hair dryer to shrink the heat shrink into place, and then attach the loose ends of the jumper wires to the breadboard where the NTC thermistor should connect.
+- The result device should look as follows:
+
+![](https://github.com/NeatPatel/temperature-sensor/blob/main/images/final_detector.png?raw=true)
 
 ## Conclusion
 
