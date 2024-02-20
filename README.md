@@ -68,7 +68,9 @@ void loop() {
 
 Upload the code to your Arduino board and immerse the NTC thermistor in water of different temperatures. Observe how the LEDs change color based on the temperature readings.
 
-For more accurate readings, you may need to calibrate the sensor by adjusting the temperature thresholds in the code according to your specific NTC thermistor's characteristics.
+For more accurate readings, you may need to calibrate the sensor by adjusting the temperature thresholds in the code according to your specific NTC thermistor's characteristics. It can be a good idea to create visuals for the data, for example by making a graph to analyze the data with a line of best fit as shown below:
+
+![](https://github.com/NeatPatel/temperature-sensor/blob/main/images/detector_graph.png?raw=true)
 
 ## Step 4: Enclosure (Optional)
 
