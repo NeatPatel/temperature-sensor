@@ -18,7 +18,7 @@ Place the LEDs on the breadboard and connect each one to the Arduino board using
 ### Wire the NTC Thermistor: 
 Connect one end of the NTC thermistor to the 5V pin on the Arduino board. Connect the other end to an analog pin (e.g., A0). To create a voltage divider circuit, connect a resistor (10k ohms) from the analog pin to the ground (GND) pin on the Arduino board. The resulting wiring should follow the image below:
 
-![](https://github.com/NeatPatel/temperature-sensor/blob/main/images/arduino_schematic?raw=true)
+![](https://github.com/NeatPatel/temperature-sensor/blob/main/images/arduino_schematic.png?raw=true)
 
 ## Step 2: Code Implementation
 
