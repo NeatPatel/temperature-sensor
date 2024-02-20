@@ -1,4 +1,4 @@
-<img width="478" alt="image" src="https://github.com/NeatPatel/temperature-sensor/assets/147283432/6f063585-ead2-4ba6-8b86-baa05c465cfb">Welcome, Arduino enthusiasts and all! Today, we're diving into the world of temperature sensing with a fun project that not only measures water temperature but also provides a visual indicator using LEDs. By the end of this guide, you'll have an NTC thermistor based water temperature thermometer that lights up red for hot, blue for cold, and green for medium temperatures. Let's get started!
+Welcome, Arduino enthusiasts and all! Today, we're diving into the world of temperature sensing with a fun project that not only measures water temperature but also provides a visual indicator using LEDs. By the end of this guide, you'll have an NTC thermistor based water temperature thermometer that lights up red for hot, blue for cold, and green for medium temperatures. Let's get started!
 
 ## What You'll Need:
 
