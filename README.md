@@ -72,6 +72,8 @@ For more accurate readings, you may need to calibrate the sensor by adjusting th
 
 ![](https://github.com/NeatPatel/temperature-sensor/blob/main/images/detector_graph.png?raw=true)
 
+> This graph uses variating voltage readings to see the temperature differences, and can use its line of prediction to adjust its readings
+
 ## Step 4: Enclosure (Optional)
 
 To protect your circuit from water and make it more aesthetically pleasing, consider enclosing it in a water-resistant casing. You can use a waterproof project box or even create a custom 3D-printed enclosure.
