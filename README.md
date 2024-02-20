@@ -8,19 +8,21 @@ Welcome, Arduino enthusiasts and all! Today, we're diving into the world of temp
 - Resistors (220 ohms for each LED)
 - Jumper wires
 - Breadboard
-- Water-resistant casing (optional)
+- Heat shrink (and a heat source, like a hair-dryer!)
 
 ## Step 1: Circuit Setup
 
-1. **Connect the LEDs**: Place the LEDs on the breadboard and connect each one to the Arduino board using jumper wires. Remember to insert a 220-ohm resistor in series with each LED to limit the current and protect them from burning out.
+### Connect the LEDs:
+Place the LEDs on the breadboard and connect each one to the Arduino board using jumper wires. Remember to insert a 220-ohm resistor in series with each LED to limit the current and protect them from burning out.
 
-2. **Wire the NTC Thermistor**: Connect one end of the NTC thermistor to the 5V pin on the Arduino board. Connect the other end to an analog pin (e.g., A0). To create a voltage divider circuit, connect a resistor (10k ohms) from the analog pin to the ground (GND) pin on the Arduino board.
+### Wire the NTC Thermistor: 
+Connect one end of the NTC thermistor to the 5V pin on the Arduino board. Connect the other end to an analog pin (e.g., A0). To create a voltage divider circuit, connect a resistor (10k ohms) from the analog pin to the ground (GND) pin on the Arduino board.
 
 ## Step 2: Code Implementation
 
 Now, let's write the Arduino code to read the temperature from the NTC thermistor and control the LEDs accordingly. Here's a basic example to get you started:
 
-```arduino
+```c
 const int thermistorPin = A0;
 const int redLedPin = 2;
 const int blueLedPin = 3;
